@@ -1,308 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EndXenocMC — Minecraft Bedrock Addon Developer">
   <title>EndXenocMC | Minecraft Bedrock Addon Developer</title>
-  <meta
-    name="description"
-    content="Portfolio of EndXenocMC, Minecraft Bedrock Addon Developer creating gameplay systems, custom UI, tools, items, blocks, entities, and add-ons since 2019."
-  />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
-    rel="stylesheet"
-  >
-  <link rel="icon" type="image/png" href="./img/logo.png">
-
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
-  <div class="noise"></div>
-  <div class="page-glow"></div>
 
-  <header class="hero" id="home">
-    <nav class="navbar reveal">
-      <a class="logo" href="#home">
-        <img class="logo-img" src="./img/logo.png" alt="EndXenocMC logo">
-        EndXenocMC
-      </a>
-
-      <div class="nav-links">
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
+<header>
+  <div class="container nav">
+    <a href="#home" class="brand">
+      <div class="brand-avatar">
+        <img src="./img/logo.png" alt="EndXenocMC logo">
       </div>
+      <div>
+        <div class="brand-name">EndXenocMC</div>
+        <div class="brand-role">Minecraft Bedrock Addon Developer</div>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Experience</a>
+      <a href="#experience">Process</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </div>
+</header>
 
-    <section class="hero-content reveal">
-      <div class="hero-left">
-        <p class="tag">Minecraft Bedrock Addon Developer</p>
-
-        <h1>Building polished add-ons for Minecraft Bedrock</h1>
-
-        <p class="hero-text">
-          I build custom add-ons for Minecraft Bedrock: unique blocks, functional furniture, custom entities, weapons, UI design, and gameplay mechanics that feel natural and well-crafted.
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">MINECRAFT BEDROCK ADDON DEVELOPER</div>
+        <h1>EndXenocMC</h1>
+        <div class="hero-title">Building gameplay.<br>Enhancing Minecraft.</div>
+        <p class="hero-copy">
+          I create high quality Minecraft Bedrock add-ons with custom systems,
+          functional content, and immersive mechanics that feel natural and fun to use.
         </p>
 
-        <div class="hero-buttons">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="#contact" class="btn secondary">Work With Me</a>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects <span>→</span></a>
+          <a class="btn secondary" href="#contact">Contact Me <span>✉</span></a>
         </div>
 
         <div class="stats">
-          <div>
-            <strong>2019</strong>
-            <span>Addon maker since</span>
-          </div>
-
-          <div>
-            <strong>20+</strong>
-            <span>Published projects</span>
-          </div>
-
-          <div>
-            <strong>Bedrock</strong>
-            <span>Main platform</span>
-          </div>
+          <div class="stat"><div class="stat-icon">▣</div><div><strong>2019</strong><span>Addon maker since</span></div></div>
+          <div class="stat"><div class="stat-icon">◇</div><div><strong>20+</strong><span>Published projects</span></div></div>
+          <div class="stat"><div class="stat-icon">♧</div><div><strong>Bedrock</strong><span>Main platform</span></div></div>
+          <div class="stat"><div class="stat-icon">&lt;/&gt;</div><div><strong>Passion</strong><span>For creating</span></div></div>
         </div>
       </div>
 
-      <aside class="hero-card tilt-card" aria-label="Developer profile card">
-        <img src="./img/logo.png" height="80" width="80" alt="EndXenocMC logo">
+      <div class="hero-panel">
+        <div class="hero-panel-content">
+          <div class="panel-label">Developer Profile // EndXenocMC</div>
+          <div class="panel-title">Building systems, not just content.</div>
+          <p class="panel-copy">
+            I focus on the technical side of Minecraft Bedrock development — from scripted mechanics and custom UI to functional blocks, items, entities, and complete addon systems.
+          </p>
 
-        <h2>EndXenocMC</h2>
+          <div class="panel-stack">
+            <div class="panel-item"><strong>Addon Development</strong><span>Behavior packs, resource packs, items, blocks &amp; entities.</span></div>
+            <div class="panel-item"><strong>Scripting &amp; Systems</strong><span>Gameplay logic, events, automation &amp; custom mechanics.</span></div>
+            <div class="panel-item"><strong>Custom UI / UX</strong><span>Forms, menus, settings and interfaces designed for players.</span></div>
+            <div class="panel-item"><strong>Optimization</strong><span>Performance, compatibility, debugging and polished updates.</span></div>
+          </div>
 
-        <p>
-          Gameplay systems • Custom UI • Custom Items • Survival mechanics • Custom Blocks • Custom Entities
-        </p>
-
-        <div class="mini-grid">
-          <span>Scripts</span>
-          <span>UI</span>
-          <span>Items</span>
-          <span>Blocks</span>
-          <span>Entities</span>
-          <span>Mechanics</span>
+          <div class="panel-code">&gt; platform: Minecraft Bedrock<br>&gt; role: addon developer<br>&gt; focus: gameplay + systems + polish</div>
         </div>
-      </aside>
-    </section>
-  </header>
-
-  <main>
-    <section class="section about reveal">
+      </div>
+    </div>
+  </section>
+  <section class="section about" id="about">
+    <div class="container about-grid">
       <div>
-        <p class="section-tag">About Me</p>
-        <h2>I turn addon ideas into playable systems.</h2>
+        <div class="heading-left"><h2>About Me</h2></div>
+        <p class="section-sub">The person behind the addons.</p>
       </div>
-
-      <p>
-        I’m a Minecraft Bedrock addon developer with a focus on quality, functionality, 
-        and player experience. I specialize in furniture ports, decorative blocks, custom mobs, 
-        weapons, utility systems, and custom UI design — creating clean and intuitive interfaces 
-        for addons like MrCrayfish Furniture and DecoDrop. I also handle updates, bug fixes, and 
-        compatibility improvements across multiple projects.
+      <p class="about-copy">
+        I’m a Minecraft Bedrock addon developer with a focus on quality, functionality, and player experience. I specialize in furniture ports, decorative blocks, custom mobs, weapons, utility systems, and custom UI design, creating clean and intuitive interfaces for addons like MrCrayfish Furniture and DecoDrop. I also handle updates, bug fixes, and compatibility improvements across multiple projects.
       </p>
-    </section>
-
-    <section id="skills" class="section reveal">
-      <p class="section-tag">Skills</p>
-      <h2>What I work with</h2>
-
-      <div class="skills-grid">
-        <div class="skill-card">
-          <span>01</span>
-          <h3>Bedrock Add-ons</h3>
-          <p>Custom behavior packs, resource packs, items, blocks, tools, furniture, and gameplay systems.</p>
-        </div>
-
-        <div class="skill-card">
-          <span>02</span>
-          <h3>Scripted Mechanics</h3>
-          <p>Scripted mechanics, interactive systems, player events, and configurable gameplay features.</p>
-        </div>
-
-        <div class="skill-card">
-          <span>03</span>
-          <h3>Custom UI</h3>
-          <p>Configuration menus, addon books, interface textures, forms, and player-friendly settings.</p>
-        </div>
-
-        <div class="skill-card">
-          <span>04</span>
-          <h3>Optimization</h3>
-          <p>Bug fixing, compatibility improvements, cleaner updates, and better user experience.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section reveal">
+    </div>
+  </section>
+  <section class="section" id="projects">
+    <div class="container">
       <div class="section-heading">
         <div>
-          <p class="section-tag">Personal Work</p>
-          <h2>Featured Personal Add-ons</h2>
+          <div class="heading-left"><h2>Featured Projects</h2></div>
+          <p class="section-sub">Some of my personal and published work.</p>
         </div>
+        <a class="view-all" href="https://www.curseforge.com/members/endxenocmc/projects" target="_blank" rel="noopener noreferrer">View all projects　›</a>
       </div>
 
-      <div class="projects-grid">
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/mrcrayfish-furniture-add-on-unofficial-port-for-1-20-30" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/mcf.png" alt="MrCrayfish Furniture cover">
-          <h3>MrCrayfish Furniture (Unofficial Port)</h3>
-          <p>Unofficial Port of MrCrayfish's furniture 1.19 (Java) to Bedrock</p>
-          <span>Furniture • Functional Blocks • Utility</span>
+      <div class="projects">
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/mrcrayfish-furniture-add-on-unofficial-port-for-1-20-30" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/mcf.png" alt="MrCrayfish Furniture (Unofficial Port)"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">MF</span><span>MrCrayfish Furniture (Unofficial Port)</span></div>
+            <p>Unofficial Port of MrCrayfish's furniture 1.19 (Java) to Bedrock</p>
+            <div class="tags"><span class="tag">Furniture</span><span class="tag">Functional Blocks</span><span class="tag">Utility</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/insta-farm" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/insta_farm.png" alt="Insta Farm cover">
-          <h3>Insta Farm</h3>
-          <p>Insta Farm Addon allows players to easily create farms and redstone mechanisms. Simply place the block, add materials and build farms - upgrade them for more efficiency!</p>
-          <span>Building • Structure Generation • Redstone • Utility</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/insta-farm" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/insta_farm.png" alt="Insta Farm"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">IF</span><span>Insta Farm</span></div>
+            <p>Insta Farm allows players to easily create farms and redstone mechanisms. Simply place the block, add materials and build farms — upgrade them for more efficiency!</p>
+            <div class="tags"><span class="tag">Building</span><span class="tag">Structure Generation</span><span class="tag">Redstone</span><span class="tag">Utility</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/decodrop-add-on" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/decodrop.png" alt="DecoDrop cover">
-          <h3>DecoDrop</h3>
-          <p>DecoDrop adds hundreds of decorative blocks like chairs, tables, lamp posts, and lights. It also includes food, a pot, a teapot, and an oven, each used to craft different recipes.</p>
-          <span>Furniture • Decoration • Functional Blocks</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/decodrop-add-on" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/decodrop.png" alt="DecoDrop"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">DD</span><span>DecoDrop</span></div>
+            <p>DecoDrop adds hundreds of decorative blocks like chairs, tables, lamp posts, and lights. It also includes food, a pot, a teapot, and an oven, each used to craft different recipes.</p>
+            <div class="tags"><span class="tag">Furniture</span><span class="tag">Decoration</span><span class="tag">Functional Blocks</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/arsenal-guns" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/arsenal.png" alt="Arsenal 3D Guns cover">
-          <h3>Arsenal | 3D Guns</h3>
-          <p>Arsenal adds firearms, including rifles, SMGs, and a revolver, with custom ammo, particles, and simple third-person handling animations.</p>
-          <span>Weapons • Combat • Guns</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/arsenal-guns" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/arsenal.png" alt="Arsenal | 3D Guns"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">AG</span><span>Arsenal | 3D Guns</span></div>
+            <p>Arsenal adds firearms, including rifles, SMGs, and a revolver, with custom ammo, particles, and simple third-person handling animations.</p>
+            <div class="tags"><span class="tag">Weapons</span><span class="tag">Combat</span><span class="tag">Guns</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/planes-add-on" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/planes.png" alt="Planes Add-On cover">
-          <h3>Planes Add-On</h3>
-          <p>Adds wooden and copper planes to Minecraft, offering a fun and immersive way to travel across your world. Build, fly, and explore from the skies!</p>
-          <span>Transport • Vehicles • Exploration</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/planes-add-on" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/planes.png" alt="Planes Add-On"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">PA</span><span>Planes Add-On</span></div>
+            <p>Adds wooden and copper planes to Minecraft, offering a fun and immersive way to travel across your world. Build, fly, and explore from the skies!</p>
+            <div class="tags"><span class="tag">Transport</span><span class="tag">Vehicles</span><span class="tag">Exploration</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/ultreon-devices-unofficial-port" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/ultreon_devices.png" alt="Ultreon Devices cover">
-          <h3>Ultreon Devices (Unofficial Port)</h3>
-          <p>Adds decorative office devices to your world: laptops (open/close), printers, routers, and office chairs you can sit on. A simple aesthetic port of Ultreon Devices for Bedrock.</p>
-          <span>Furniture • Decoration • Functional Blocks</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/ultreon-devices-unofficial-port" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/ultreon_devices.png" alt="Ultreon Devices (Unofficial Port)"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">UD</span><span>Ultreon Devices (Unofficial Port)</span></div>
+            <p>Adds decorative office devices to your world: laptops (open/close), printers, routers, and office chairs you can sit on. A simple aesthetic port of Ultreon Devices for Bedrock.</p>
+            <div class="tags"><span class="tag">Furniture</span><span class="tag">Decoration</span><span class="tag">Functional Blocks</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/colorful-blocks-addon-1-2" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/colorful_blocks.png" alt="Colorful Blocks cover">
-          <h3>Colorful Blocks</h3>
-          <p>This addon expands Minecraft’s creative options by adding blocks, slabs, stairs, walls, and fences in all 16 colors. Craft them in Survival mode using the Painting Table and the Stonecutter.</p>
-          <span>Decoration • Building • Creative</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/colorful-blocks-addon-1-2" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/colorful_blocks.png" alt="Colorful Blocks"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">CB</span><span>Colorful Blocks</span></div>
+            <p>This addon expands Minecraft’s creative options by adding blocks, slabs, stairs, walls, and fences in all 16 colors. Craft them in Survival mode using the Painting Table and the Stonecutter.</p>
+            <div class="tags"><span class="tag">Decoration</span><span class="tag">Building</span><span class="tag">Creative</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/decodrop-halloween-expansion" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/decodrop_halloween.png" alt="DecoDrop Halloween Expansion cover">
-          <h3>DecoDrop Halloween Expansion</h3>
-          <p>DecoDrop Halloween Expansion adds spooky decorations like skulls, lanterns, lights, masks, and a Pumpkin Wagon. It expands the main DecoDrop addon with a festive Halloween touch!</p>
-          <span>Furniture • Decoration • Transport</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/decodrop-halloween-expansion" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/decodrop_halloween.png" alt="DecoDrop Halloween Expansion"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">DH</span><span>DecoDrop Halloween Expansion</span></div>
+            <p>DecoDrop Halloween Expansion adds spooky decorations like skulls, lanterns, lights, masks, and a Pumpkin Wagon. It expands the main DecoDrop addon with a festive Halloween touch!</p>
+            <div class="tags"><span class="tag">Furniture</span><span class="tag">Decoration</span><span class="tag">Transport</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/turkey-addon-for-mcpe-1-21-20" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/turkey.png" alt="Turkey for MCPE cover">
-          <h3>Turkey for MCPE</h3>
-          <p>The Turkey Add-on adds turkeys to forests, birch forests, dark oak forests, plains, taigas, and meadows. Breed, collect eggs, and cook with unique 3D items to enrich your world.</p>
-          <span>Animals • Farming • Food</span>
-        </a>
-        
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/sleeping-coffins" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/sleeping_coffins.png" alt="Sleeping Coffins cover">
-          <h3>Sleeping Coffins</h3>
-          <p>Adds decorative coffins that players can sleep in to skip the night. A stylish and spooky alternative to beds, available in all wood types.</p>
-          <span>Decoration • Sleeping • Furniture</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/turkey-addon-for-mcpe-1-21-20" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/turkey.png" alt="Turkey for MCPE"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">TK</span><span>Turkey for MCPE</span></div>
+            <p>The Turkey Add-on adds turkeys to forests, birch forests, dark oak forests, plains, taigas, and meadows. Breed, collect eggs, and cook with unique 3D items to enrich your world.</p>
+            <div class="tags"><span class="tag">Animals</span><span class="tag">Farming</span><span class="tag">Food</span></div>
+          </div>
         </a>
 
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/chocobos-add-on" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/chocobos.png" alt="Chocobos Add-On cover">
-          <h3>Chocobos Add-On (Achievement friendly)</h3>
-          <p>Adds tameable and rideable Chocobos that spawn in plains. They eat wheat seeds, can wear armor, follow or sit, and lay eggs that hatch faster on hay blocks. A fun and faithful companion for your adventures!</p>
-          <span>Mobs • Mounts • Animals</span>
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/sleeping-coffins" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/sleeping_coffins.png" alt="Sleeping Coffins"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">SC</span><span>Sleeping Coffins</span></div>
+            <p>Adds decorative coffins that players can sleep in to skip the night. A stylish and spooky alternative to beds, available in all wood types.</p>
+            <div class="tags"><span class="tag">Decoration</span><span class="tag">Sleeping</span><span class="tag">Furniture</span></div>
+          </div>
         </a>
-        
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/mailboxes-send-packages-everywhere" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/mailboxes.png" alt="Mailboxes cover">
-          <h3>Mailboxes | Send packages everywhere</h3>
-          <p>Mailboxes V1.3.0: Added pale oak mailboxes, pending package system, password-protected settings, performance improvements, and new postman hats. Mailboxes now load dynamically for better optimization.</p>
-          <span>Utility • Storage • Transportation</span>
+
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/chocobos-add-on" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/chocobos.png" alt="Chocobos Add-On (Achievement friendly)"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">CH</span><span>Chocobos Add-On (Achievement friendly)</span></div>
+            <p>Adds tameable and rideable Chocobos that spawn in plains. They eat wheat seeds, can wear armor, follow or sit, and lay eggs that hatch faster on hay blocks.</p>
+            <div class="tags"><span class="tag">Mobs</span><span class="tag">Mounts</span><span class="tag">Animals</span></div>
+          </div>
         </a>
-        
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/tuff-golem-concept-addon" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/tuff_golem.png" alt="Tuff Golem cover">
-          <h3>Tuff Golem | Concept Addon</h3>
-          <p>A small concept add-on of the Tuff Golem: summon it like any golem, customize its cloth color with carpets, let it hold items only when dressed, make it sit, turn it into a statue with honeycomb, and revive it with an axe.</p>
-          <span>Mobs • Golems • Decoration</span>
-        </a>
-        
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/colorful-doors" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/colorful_doors.png" alt="Colorful Doors cover">
-          <h3>Colorful Doors</h3>
-          <p>Colorful Doors adds vanilla-style doors in all 16 in-game colors. This version introduces animated doors.</p>
-          <span>Decoration • Building • Redstone</span>
-        </a>
-        
-        <a class="project-card tilt-card" href="https://www.curseforge.com/minecraft-bedrock/addons/colorful-trapdoors" target="_blank" rel="noopener noreferrer">
-          <img class="portada" src="./img/projects/colorful_trapdoors.png" alt="Colorful Trapdoors cover">
-          <h3>Colorful Trapdoors</h3>
-          <p>Colorful Trapdoors allows dyeing all vanilla trapdoors in the 16 vanilla colors using the new crafting table.</p>
-          <span>Decoration • Building • Redstone</span>
+
+        <a class="project" href="https://www.curseforge.com/minecraft-bedrock/addons/mailboxes-send-packages-everywhere" target="_blank" rel="noopener noreferrer">
+          <div class="project-image"><img src="./img/projects/mailboxes.png" alt="Mailboxes | Send packages everywhere"></div>
+          <div class="project-body">
+            <div class="project-title"><span class="project-code">MB</span><span>Mailboxes | Send packages everywhere</span></div>
+            <p>Mailboxes V1.3.0: Added pale oak mailboxes, pending package system, password-protected settings, performance improvements, and new postman hats. Mailboxes now load dynamically for better optimization.</p>
+            <div class="tags"><span class="tag">Utility</span><span class="tag">Storage</span><span class="tag">Transportation</span></div>
+          </div>
         </a>
       </div>
-    </section>
-
-    <section id="process" class="section reveal">
-      <p class="section-tag">Workflow</p>
-      <h2>How I usually build an add-on</h2>
-
-      <div class="timeline">
+    </div>
+  </section>
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-heading">
         <div>
-          <span></span>
-            <h3>Idea & Gameplay Design</h3>
-            <p>I define the concept, the target audience, and the core gameplay loop.</p>
-        </div>
-
-        <div>
-          <span></span>
-          <h3>Systems & UI</h3>
-          <p>I implement the behavior, design the UI, configure settings, and ensure everything works smoothly.</p>
-        </div>
-    
-        <div>
-          <span></span>
-          <h3>Testing & Polish</h3>
-          <p>I test extensively, optimize performance, fix bugs, and improve based on user feedback.</p>
+          <div class="heading-left"><h2>Expertise</h2></div>
+          <p class="section-sub">Technologies and areas I work with.</p>
         </div>
       </div>
-    </section>
 
-    <section id="contact" class="section contact reveal">
-      <p class="section-tag">Contact</p>
-      <h2>Let’s build something for Minecraft Bedrock.</h2>
+      <div class="expertise">
+        <article class="expertise-card">
+          <div class="expertise-icon">◇</div>
+          <div><h3>Addon Development</h3><p>Behavior packs, resource packs, items, blocks, entities and custom content.</p></div>
+        </article>
 
-      <p>
-        I'm available for collaborations, and custom systems. Let's bring your ideas to Bedrock.
-      </p>
+        <article class="expertise-card">
+          <div class="expertise-icon">&lt;/&gt;</div>
+          <div><h3>Scripting &amp; Systems</h3><p>Custom mechanics, player events, interactive systems and gameplay features.</p></div>
+        </article>
 
-      <div class="contact-links">
-        <a href="https://endev-studio.com/" target="_blank" rel="noopener noreferrer">Website</a>
-        <a href="https://www.youtube.com/@endxenoc" target="_blank" rel="noopener noreferrer">YouTube</a>
-        <a href="https://www.curseforge.com/members/endxenocmc/projects" target="_blank" rel="noopener noreferrer">CurseForge</a>
-        <a href="mailto:endxenocmcpe@gmail.com">Email</a>
+        <article class="expertise-card">
+          <div class="expertise-icon">▣</div>
+          <div><h3>Custom UI/UX</h3><p>Custom forms, books, menus, interface textures and settings for a smooth experience.</p></div>
+        </article>
+
+        <article class="expertise-card">
+          <div class="expertise-icon">⌁</div>
+          <div><h3>Optimization</h3><p>Bug fixing, compatibility improvements, performance and clean updates.</p></div>
+        </article>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2026 EndXenocMC. Minecraft Bedrock Addon Developer.</p>
-  </footer>
+  <!-- EXPERIENCE / PROCESS -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <div class="heading-left"><h2>My Development Process</h2></div>
+        </div>
+      </div>
 
-  <script src="script.js"></script>
+      <div class="process-box">
+        <div class="process-line">
+          <article class="step">
+            <div class="step-icon">♧</div>
+            <h3><span>01</span>Idea &amp; Planning</h3>
+            <p>I define the concept, features and goals for the addon.</p>
+          </article>
+          <article class="step">
+            <div class="step-icon">✎</div>
+            <h3><span>02</span>Design</h3>
+            <p>I design systems, content and user experience.</p>
+          </article>
+          <article class="step">
+            <div class="step-icon">&lt;/&gt;</div>
+            <h3><span>03</span>Development</h3>
+            <p>I build, code and integrate all the systems.</p>
+          </article>
+          <article class="step">
+            <div class="step-icon">✓</div>
+            <h3><span>04</span>Testing</h3>
+            <p>I test everything to ensure quality and balance.</p>
+          </article>
+          <article class="step">
+            <div class="step-icon">☁</div>
+            <h3><span>05</span>Release &amp; Support</h3>
+            <p>I publish the addon and provide ongoing support.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Let’s build something amazing together.</h2>
+        <p class="contact-copy">Have an idea or need help with your addon?<br>I'm open for collaborations and commissions.</p>
+      </div>
+
+      <div class="contact-actions">
+        <a class="contact-btn" href="mailto:endxenocmcpe@gmail.com">Get in touch　✉</a>
+        <div class="socials">
+          <a href="https://endev-studio.com/" target="_blank" rel="noopener noreferrer" aria-label="Website">⌂</a>
+          <a href="https://www.youtube.com/@endxenoc" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+          <a href="https://www.curseforge.com/members/endxenocmc/projects" target="_blank" rel="noopener noreferrer" aria-label="CurseForge">◆</a>
+          <a href="mailto:endxenocmcpe@gmail.com" aria-label="Email">✉</a>
+        </div>
+        <div class="contact-links-text">
+          <a href="https://endev-studio.com/" target="_blank" rel="noopener noreferrer">Website</a>
+          <a href="https://www.youtube.com/@endxenoc" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://www.curseforge.com/members/endxenocmc/projects" target="_blank" rel="noopener noreferrer">CurseForge</a>
+          <a href="mailto:endxenocmcpe@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="contact-avatar">
+        <img src="./img/logo.png" alt="EndXenocMC logo">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <p>© 2026 EndXenocMC. All rights reserved.</p>
+    <p>Minecraft Bedrock Addon Developer</p>
+    <p>Made with <span class="heart">♥</span> and lots of coffee.</p>
+  </div>
+</footer>
+
 </body>
 </html>
